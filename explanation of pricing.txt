@@ -1,0 +1,5 @@
+| Fare Type                        | Meaning                                                                                             | Example |
+| -------------------------------- | --------------------------------------------------------------------------------------------------- | ------- |
+| **Base Fare**                    | Predicted by your ML model (from historical data).                                                  | ₹4,800  |
+| **Dynamic Adjusted Fare**        | Base Fare + demand surge + booking window adjustment + competitor pricing + other business factors. | ₹6,750  |
+| **Final Price Paid by Customer** | ✅ This is the **Dynamic Adjusted Fare** (e.g., ₹6,750).                                             | ₹6,750  |
